@@ -30,9 +30,22 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/dist/css/neumorphism.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/dist/neumorphism.js",
+              "src/assets/dist/vendor/prismjs/prism.js",
+              "src/assets/dist/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js",
+              "src/assets/dist/vendor/jquery-countdown/dist/jquery.countdown.min.js",
+              "src/assets/dist/vendor/jquery.counterup/jquery.counterup.min.js",
+              "src/assets/dist/vendor/jarallax/dist/jarallax.min.js",
+              "src/assets/dist/vendor/waypoints/lib/jquery.waypoints.min.js",
+              "src/assets/dist/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js",
+              "src/assets/dist/vendor/nouislider/distribute/nouislider.min.js",
+              "src/assets/dist/vendor/onscreen/dist/on-screen.umd.min.js",
+              "src/assets/dist/vendor/headroom.js/dist/headroom.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -98,8 +111,12 @@
             ],
             "styles": [
               "src/styles.css"
+              
+              
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
           }
         }
       }
