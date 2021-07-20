@@ -32,7 +32,8 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/dist/css/neumorphism.css"
+              "src/assets/dist/css/neumorphism.css",
+              "src/assets/dist/vendor/@fortawesome/fontawesome-free/css/all.min.css"
             ],
             "scripts": [
               "src/assets/dist/neumorphism.js",
