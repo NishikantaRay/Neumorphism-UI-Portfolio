@@ -16,4 +16,5 @@ export class HeaderComponent implements OnInit {
   public invokeParticles(): void {
     particlesJS('particles-js', ParticlesConfig, function() {});
   }
+  
 }
