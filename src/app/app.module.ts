@@ -7,6 +7,12 @@ import { NavComponent } from './home/nav/nav.component';
 import { HeaderComponent } from './home/header/header.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { ContactusPageComponent } from './home/contactus-page/contactus-page.component';
+import { AboutmeComponent } from './home/aboutme/aboutme.component';
+import { EducationComponent } from './home/education/education.component';
+import { WorkExperienceComponent } from './home/work-experience/work-experience.component';
+import { AchievementsComponent } from './home/achievements/achievements.component';
+import { ProjectsComponent } from './home/projects/projects.component';
+import { ResumeComponent } from './home/resume/resume.component';
 
 
 @NgModule({
@@ -16,6 +22,12 @@ import { ContactusPageComponent } from './home/contactus-page/contactus-page.com
     HeaderComponent,
     FooterComponent,
     ContactusPageComponent,
+    AboutmeComponent,
+    EducationComponent,
+    WorkExperienceComponent,
+    AchievementsComponent,
+    ProjectsComponent,
+    ResumeComponent,
   ],
   imports: [
     BrowserModule,
