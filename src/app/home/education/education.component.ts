@@ -1,9 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-education',
   templateUrl: './education.component.html',
-  styleUrls: ['./education.component.css']
+  encapsulation: ViewEncapsulation.None,
+  styleUrls: ['./education.component.css'
+],
+
 })
 export class EducationComponent implements OnInit {
 
