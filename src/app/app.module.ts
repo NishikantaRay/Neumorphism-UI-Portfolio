@@ -14,6 +14,7 @@ import { AchievementsComponent } from './home/achievements/achievements.componen
 import { ProjectsComponent } from './home/projects/projects.component';
 import { ResumeComponent } from './home/resume/resume.component';
 import { HobbyComponent } from './home/hobby/hobby.component';
+import { GithubpagesComponent } from './home/githubpages/githubpages.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { HobbyComponent } from './home/hobby/hobby.component';
     ProjectsComponent,
     ResumeComponent,
     HobbyComponent,
+    GithubpagesComponent,
   ],
   imports: [
     BrowserModule,
