@@ -44,3 +44,10 @@ var wordflick = function () {
 $(document).ready(function () {
   wordflick();
 });
+
+
+
+
+$(document).ready(function () {
+  wordflick();
+});

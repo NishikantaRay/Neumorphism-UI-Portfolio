@@ -13,6 +13,7 @@ import { WorkExperienceComponent } from './home/work-experience/work-experience.
 import { AchievementsComponent } from './home/achievements/achievements.component';
 import { ProjectsComponent } from './home/projects/projects.component';
 import { ResumeComponent } from './home/resume/resume.component';
+import { HobbyComponent } from './home/hobby/hobby.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { ResumeComponent } from './home/resume/resume.component';
     AchievementsComponent,
     ProjectsComponent,
     ResumeComponent,
+    HobbyComponent,
   ],
   imports: [
     BrowserModule,
