@@ -47,8 +47,10 @@
               "src/assets/dist/vendor/nouislider/distribute/nouislider.min.js",
               "src/assets/dist/vendor/onscreen/dist/on-screen.umd.min.js",
               "src/assets/dist/vendor/headroom.js/dist/headroom.min.js",
+              "src/assets/dist/assets/horizontal.js",
               "src/assets/dist/custom.js",
               "node_modules/particles.js/particles.js"
+              
             ]
           },
           "configurations": {

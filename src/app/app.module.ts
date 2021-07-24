@@ -15,6 +15,9 @@ import { ProjectsComponent } from './home/projects/projects.component';
 import { ResumeComponent } from './home/resume/resume.component';
 import { HobbyComponent } from './home/hobby/hobby.component';
 import { GithubpagesComponent } from './home/githubpages/githubpages.component';
+import { SkillComponent } from './home/skill/skill.component';
+import { HackathonComponent } from './home/hackathon/hackathon.component';
+import { OpensourceComponent } from './home/opensource/opensource.component';
 
 
 @NgModule({
@@ -32,6 +35,9 @@ import { GithubpagesComponent } from './home/githubpages/githubpages.component';
     ResumeComponent,
     HobbyComponent,
     GithubpagesComponent,
+    SkillComponent,
+    HackathonComponent,
+    OpensourceComponent,
   ],
   imports: [
     BrowserModule,
