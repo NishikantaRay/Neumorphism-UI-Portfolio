@@ -18,6 +18,7 @@ import { GithubpagesComponent } from './home/githubpages/githubpages.component';
 import { SkillComponent } from './home/skill/skill.component';
 import { HackathonComponent } from './home/hackathon/hackathon.component';
 import { OpensourceComponent } from './home/opensource/opensource.component';
+import { SwagsComponent } from './home/swags/swags.component';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import { OpensourceComponent } from './home/opensource/opensource.component';
     SkillComponent,
     HackathonComponent,
     OpensourceComponent,
+    SwagsComponent,
   ],
   imports: [
     BrowserModule,
