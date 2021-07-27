@@ -1,5 +1,5 @@
 # Portfolio
-
+[![Watch the video](https://youtu.be/5JcEAhIrgUM)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
 ## Development server
