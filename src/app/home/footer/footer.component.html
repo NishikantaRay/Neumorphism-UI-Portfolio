@@ -54,44 +54,57 @@
           </li>
           <li>
             <button
-            class="btn btn-icon-only btn-pill btn-instagram mr-3"
-            type="button"
-            aria-label="youtube button"
-            title="youtube button" onclick="location.href = 'https://instagram.com/nishikant.ray.16?utm_medium=copy_link';"
-          >
-            <span aria-hidden="true" class="fab fa-instagram"></span>
-          </button>
+              class="btn btn-icon-only btn-pill btn-instagram mr-3"
+              type="button"
+              aria-label="youtube button"
+              title="youtube button"
+              onclick="location.href = 'https://instagram.com/nishikant.ray.16?utm_medium=copy_link';"
+            >
+              <span aria-hidden="true" class="fab fa-instagram"></span>
+            </button>
           </li>
           <li>
             <button
-      class="btn btn-icon-only btn-pill btn-facebook mr-3"
-      type="button"
-      aria-label="youtube button"
-      title="youtube button" onclick="location.href = 'https://www.facebook.com/nishikant.ray.16';"
-    >
-      <span aria-hidden="true" class="fab fa-facebook"></span>
-    </button>
+              class="btn btn-icon-only btn-pill btn-facebook mr-3"
+              type="button"
+              aria-label="youtube button"
+              title="youtube button"
+              onclick="location.href = 'https://www.facebook.com/nishikant.ray.16';"
+            >
+              <span aria-hidden="true" class="fab fa-facebook"></span>
+            </button>
           </li>
         </ul>
       </div>
       <div class="col-12 col-lg-4 mb-5 mb-lg-0">
         <div class="text-center">
-            <a href="https://nishikantaray.github.io/studytub/">
-            <div class="icon icon-shape shadow-soft border border-light rounded-circle">
-                <img src="https://nishikantaray.github.io/studytub/img/core-img/nanda.png" alt="" srcset="">
+          <a href="https://nishikantaray.github.io/studytub/">
+            <div
+              class="
+                icon icon-shape
+                shadow-soft
+                border border-light
+                rounded-circle
+              "
+            >
+              <img
+                src="https://nishikantaray.github.io/studytub/img/core-img/nanda.png"
+                alt=""
+                srcset=""
+              />
             </div>
             <h3 class="h3 my-3">Study Tub</h3>
             <span>Your One-Stop for all the Notes.</span>
-        </a>
+          </a>
         </div>
       </div>
-      
+
       <div class="col-12 col-lg-4 mb-5 mb-lg-0">
         <h5>Subscribe</h5>
         <p class="text-gray font-small mt-2">
           Join our mailing list. We write rarely, but only the best content.
         </p>
-        <form action="#">
+        <form [formGroup]="mailForm" (ngSubmit)="onSubmit()">
           <div class="form-row mb-2">
             <div class="col-12">
               <label
@@ -105,17 +118,29 @@
                 placeholder="example@company.com"
                 name="email"
                 aria-label="Subscribe form"
-                id="exampleInputEmail3"
-                required
+                id="mail"
+                formControlName="mail"
+                [ngClass]="{
+                  'is-invalid':
+                    mailForm.get('mail')!.touched &&
+                    mailForm.get('mail')!.invalid
+                }"
               />
+              <div *ngIf="f.mail.touched && f.mail.invalid">
+                <small class="text-danger" *ngIf="f.mail.errors?.required">
+                  Mail is required!
+                </small>
+              </div>
             </div>
+
             <div class="col-12">
               <button
                 type="submit"
                 class="btn btn-primary btn-block"
                 data-loading-text="Sending"
+                [disabled]="mailForm.invalid"
               >
-                <span >Subscribe</span>
+                <span>Subscribe</span>
               </button>
             </div>
           </div>
@@ -129,8 +154,8 @@
     <hr class="my-5" />
     <div class="row">
       <div class="col">
-        <a href="#" target="_blank" class="d-flex justify-content-center" >
-           <h3 style="font-family: cursive;">NR</h3>
+        <a href="#" target="_blank" class="d-flex justify-content-center">
+          <h3 style="font-family: cursive">NR</h3>
         </a>
         <div
           class="d-flex text-center justify-content-center align-items-center"
