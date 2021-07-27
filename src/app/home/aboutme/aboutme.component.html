@@ -1,30 +1,27 @@
 <div class="container">
-  <div class="mx-auto mt-5 text-center" style="width: 300px; height: 50px">
-    <h4 style="font-family: cursive">&nbsp;About me</h4>
+  <div class="mx-auto mt-5 text-center achieve">
+    <h4>&nbsp;{{ details.name }}</h4>
   </div>
   <div class="row">
     <div class="col-12 col-md-6 col-lg-4 mb-5 pt-5 mb-md-0">
-      <!-- Profile Card -->
       <div class="card bg-primary shadow-inset border-light">
         <div class="card-header p-4">
           <img
-            src="https://avatars.githubusercontent.com/u/62615392?v=4"
+            src="{{ details.url }}"
             class="card-img-top rounded"
             alt="Wood Portrait"
           />
         </div>
       </div>
       <div class="card-body text-center pt-4">
-        <h3 class="h5 mb-2">Nishikanta Ray</h3>
+        <h3 class="h5 mb-2">{{ details.picname }}</h3>
       </div>
-      <!-- End of Profile Card -->
     </div>
     <div class="col-md-6 col-lg-2 mb-md-0"></div>
     <div class="col-12 col-md-6 col-lg-6 mb-5 pt-5 mb-md-0">
       <div class="row">
         <div class="col-12 col-md-12">
           <div class="card bg-primary shadow-inset border-light p-3">
-            <!-- Header -->
             <div
               class="
                 card-header
@@ -36,30 +33,23 @@
               "
             >
               <p>
-                I am a second year Undergraduate student of Electronics and
-                Communication Engineering at Silicon Institute of Technology,
-                Bhubanewer,Odisha. I am a tech enthusiast who likes creating new
-                things and experimenting with things. I am a fast learner and
-                enjoy challenges encountered along the way. I am always willing
-                to learn new things with full enthusiasm and passion.
+                {{ details.intro }}
               </p>
             </div>
-            <!-- End Header -->
-            <!-- Content -->
             <div
               class="card-body shadow-soft border border-light rounded p-2 mb-3"
             >
               <ul class="list-group list-group-flush price-list mb-4">
                 <li class="list-group-item border-primary pb-1">
                   <span class="fas fa-envelope-square"></span
-                  >nishikantaray1@gmail.com
+                  >{{ details.personalmail }}
                 </li>
                 <li class="list-group-item border-primary pb-1">
                   <span class="fas fa-envelope-square"></span
-                  >ece.190410294@silicon.ac.in
+                  >{{ details.clgmail }}
                 </li>
                 <li class="list-group-item border-primary pb-1">
-                  <span class="fas fa-phone"></span>+91-6372833923
+                  <span class="fas fa-phone"></span>{{ details.phone }}
                 </li>
               </ul>
             </div>
@@ -69,5 +59,4 @@
     </div>
   </div>
 </div>
-
 <app-hobby></app-hobby>
