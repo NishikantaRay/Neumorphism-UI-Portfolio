@@ -5,67 +5,15 @@
     <div class="row">
       <div class="col-md-12 mt-5">
         <div style="display: inline-block; width: 100%; overflow-y: auto">
-          <ul class="timeline timeline-horizontal">
-            <li class="timeline-item">
-              <div class="timeline-panel">
-                <div class="col-12 col-md-12 ">
-                    <div class="card bg-primary border-light shadow-soft ">
-                        <img src="https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/laptop.jpg" class="card-img-top rounded-top" alt="Themesberg office">
-                        <div class="card-body">
-                            <span class="h6 icon-tertiary small"><span class="fas fa-medal mr-2"></span>Awards</span>
-                            <h3 class="h5 card-title mt-3">Biju Yuva Sashaktikaran Yojana(Odisha Govt)</h3>
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-item">
-                <div class="timeline-panel">
-                  <div class="col-12 col-md-12">
-                      <div class="card bg-primary border-light shadow-soft rounded-top">
-                          <img src="https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/IMG-20200114-WA0005.jpg" class="card-img-top rounded-top" alt="Themesberg office">
-                          <div class="card-body">
-                              <span class="h6 icon-tertiary small"><span class="fas fa-medal mr-2"></span>Awards</span>
-                              <h3 class="h5 card-title mt-3">Google Cloud skills challenge 2019</h3>
-                          </div>
-                      </div>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
+          <ul class="timeline timeline-horizontal" >
+              <li class="timeline-item" *ngFor="let user of arrproject;">
                 <div class="timeline-panel">
                   <div class="col-12 col-md-12">
                       <div class="card bg-primary border-light shadow-soft">
-                          <img src="https://i.ytimg.com/vi/UvcI5G0bidQ/maxresdefault.jpg" class="card-img-top rounded-top" alt="Themesberg office">
+                          <img src="{{user.url}}" class="card-img-top rounded-top" alt="Themesberg office">
                           <div class="card-body">
                               <span class="h6 icon-tertiary small"><span class="fas fa-medal mr-2"></span>Awards</span>
-                              <h3 class="h5 card-title mt-3">Hacktoberfest Swags 2020</h3>
-                          </div>
-                      </div>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-panel ">
-                  <div class="col-12 col-md-12 h-50">
-                      <div class="card bg-primary border-light shadow-soft h-50">
-                          <img src="https://pbs.twimg.com/media/En7Ztt5UYAISELX.jpg" class="card-img-top  rounded-top" alt="Themesberg office">
-                          <div class="card-body">
-                              <span class="h6 icon-tertiary small"><span class="fas fa-medal mr-2"></span>Awards</span>
-                              <h3 class="h5 card-title mt-3">Google cloud ready facilitator program </h3>
-                          </div>
-                      </div>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-panel">
-                  <div class="col-12 col-md-12">
-                      <div class="card bg-primary border-light shadow-soft">
-                          <img src="https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/mlh.jpeg" class="card-img-top rounded-top" alt="Themesberg office">
-                          <div class="card-body">
-                              <span class="h6 icon-tertiary small"><span class="fas fa-medal mr-2"></span>Awards</span>
-                              <h3 class="h5 card-title mt-3">Mlhacks swags</h3>
+                              <h3 class="h5 card-title mt-3">{{user.name}}</h3>
                           </div>
                       </div>
                   </div>
