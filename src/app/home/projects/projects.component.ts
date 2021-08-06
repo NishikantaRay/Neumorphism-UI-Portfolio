@@ -8,43 +8,61 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   arrproject:any =[
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(34).png?token=AO5W6YDQUPHXTZSJPOYKJ6DBARI2G",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/URL-Shortener/main/url.gif",
+      "name":" URL Shortener",
+      "details":" URL Shortener using Nodejs.",
+      "url":"https://github.com/NishikantaRay/URL-Shortener"
+    },
+    {
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Vscode-Extension-for-Regex/main/icon.png",
+      "name":"Regex Vscode Extension",
+      "details":"Regex Snippets",
+      "url":"https://marketplace.visualstudio.com/items?itemName=Nishikanta12.regex"
+    },
+    {
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(34).png",
       "name":"Studytub-Your One-Stop for all the Notes.",
       "details":"“For the students, by the students.”",
       "url":"https://studytub.ml"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(36).png?token=AO5W6YDGNJ46AVVXGW44O63BARJW6",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(36).png",
       "name":"2020 Portfolio",
       "details":"Techstack- Html,css,javascript,bootstrap4 and Aos Animation ",
       "url":"https://nishikantaray.github.io/"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(35).png?token=AO5W6YBAVCQO3AECBBLDLEDBARJK6",
+      "image":"https://user-images.githubusercontent.com/62615392/127748278-c1f06bac-c20a-4f7c-a19a-7abb80e4259f.png",
+      "name":"Instafeed",
+      "details":"Instafeed using Instafeed.js",
+      "url":"https://github.com/NishikantaRay/Instafeed"
+    },
+    {
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(35).png",
       "name":"Music player",
       "details":"Music player using spotify api (beatzz.ml)(pro.beatzz.ml)",
       "url":"https://pro.beatzz.ml/"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(26).png?token=AO5W6YEVY7OSIVBAPWBWX73BARBJ2",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(26).png",
       "name":"Club site",
       "details":"Techstack-Express templateengine HandelbarJs and Aosanimation",
       "url":"https://github.com/NishikantaRay/Clubsite-using-Handlebars-Node-application-"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(33).png?token=AO5W6YCDRDV4KM7FPLRRE7DBARIIC",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(33).png",
       "name":"Rawsome-Photography",
       "details":"Rawsome-Photography a website for photographer",
       "url":"https://nishikantaray.github.io/Rawsome-Photography/"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot_(89).png?token=AO5W6YBZVQWXKPRYYWRW3ZDBARHZK",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot_(89).png",
       "name":"starter template",
       "details":"Angular-starter-template-using-tailwindcss",
       "url":"https://github.com/NishikantaRay/Angular-starter-template-using-tailwindcss"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/Neumorphism-Ui-template-using-Themesberg-ui/main/Screenshots/Screenshot%20(95).png?token=AO5W6YCKHH7QDTY5OZ7FJO3A6MLWS",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Neumorphism-Ui-template-using-Themesberg-components/main/Screenshots/Screenshot%20(95).png",
       "name":"Neumorphism-Ui-template",
       "details":"Neumorphism-Ui-template-using-Themesberg-components",
       "url":"https://github.com/NishikantaRay/Neumorphism-Ui-template-using-Themesberg-components"
@@ -56,13 +74,13 @@ export class ProjectsComponent implements OnInit {
       "url":"https://marketplace.visualstudio.com/items?itemName=Nishikanta12.bootstrap5snippets"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(26).png?token=AO5W6YEVY7OSIVBAPWBWX73BARBJ2",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(26).png",
       "name":"Club site",
       "details":"Techstack- Html,css,javascript,bootstrap4 and Aos Animation ",
       "url":"https://nishikantaray.github.io/Club_template/"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(32).png?token=AO5W6YDW2HU5IOVJAVITXZTBARGVC",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(32).png",
       "name":"Contact manager system",
       "details":"Techstack- Angular,nodejs,mongodb and expressjs ",
       "url":"https://nishikantaray.github.io/Contact-manager-app/login"
@@ -74,7 +92,7 @@ export class ProjectsComponent implements OnInit {
       "url":"https://nishikantaray.github.io/Github-Contributors-List/"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(29).png?token=AO5W6YD75SGH5JYGZYPPGVLBAREOW",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(29).png",
       "name":"Creative Club website",
       "details":"Techstack- Html,css,javascript,bootstrap4 and Aos Animation ",
       "url":"https://nishikantaray.github.io/Bootstrap-projects/Creative-club-website-template-master/creative%20club/index.html"
@@ -86,7 +104,7 @@ export class ProjectsComponent implements OnInit {
       "url":"https://github.com/NishikantaRay/Library-Management-System-Cpp"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(28).png?token=AO5W6YBHRPCOZO3DCLGG2I3BARDH4",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(28).png",
       "name":"Resturant site",
       "details":"Con Fusion' is a fictional restaurant and these are its website and mobile app projects.",
       "url":"https://nishikantaray.github.io/Resturant-website/"
@@ -98,7 +116,7 @@ export class ProjectsComponent implements OnInit {
       "url":"https://nishikantaray.github.io/ResturantAPP-coursera-project/module5_solution/"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(24).png?token=AO5W6YFYPYYAJ2FD2JRG3HLBAQ6GY",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(24).png",
       "name":"Mathsolver(Using Newton api)",
       "details":"Techstack-Html,css,javascript,bootstrap4 and Newton api ",
       "url":"https://nishikantaray.github.io/Advance-Calculator/index.html"
@@ -110,55 +128,55 @@ export class ProjectsComponent implements OnInit {
       "url":"https://odishatourism.herokuapp.com/tourismApi"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(23).png?token=AO5W6YCP5DPQEHTB6ZVZS2TBAQ5VG",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(23).png",
       "name":"Airliner(TicketBookingplatform)",
       "details":"Techstack-Html,css,javascript,bootstrap4 and firebase ",
       "url":"https://nishikantaray.github.io/AIRLINER_TICKET_BOOKING_WEBSITE/"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(25).png?token=AO5W6YHYBRV5AJJRBXEZTKTBARADI",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(25).png",
       "name":"QuotesApp(Using QuotesApi)",
       "details":"Techstack-Html,css,javascript,bootstrap4 and Quote APi ",
       "url":"https://nishikantaray.github.io/Openweatherapi-And-Quotes-api-/quote_app/quote.html"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(21).png?token=AO5W6YGTYMCWT53PG2NTJ6DBAQ4FU",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(21).png",
       "name":"Pokedox Api implementation",
       "details":"Pokédex API implementation . Get all your Pokémon Needs in one place.",
       "url":"https://nishikantaray.github.io/pokeDex-api-spoonacular-api-implementation/index.html"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(20).png?token=AO5W6YFD3Q2INBIOPJNYQRLBAQ3BE",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(20).png",
       "name":"Frosted_Glass_Template",
       "details":"Glassmorphism has emerged as a fresh trend in interface design.",
       "url":"https://nishikantaray.github.io/Frosted_Glass_Template/"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(22).png?token=AO5W6YH2XDTH524X6X2WIBLBAQ5A4",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(22).png",
       "name":"Feed the hunger",
       "details":"Food Waste Management system Hackathon project (Top 6 team)",
       "url":"https://github.com/NishikantaRay/FEED_THE_HUNGRY"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(27).png?token=AO5W6YCK2RP3JAJXZNUXYDDBARB4U",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(27).png",
       "name":"Music player",
       "details":"Techstack- Html,css,javascript,bootstrap4 and SoundcloudAPI",
       "url":"https://nishikantaray.github.io/Musicplayer/index.html"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(30).png?token=AO5W6YCFDQTALRNC6B77K3DBARE4G",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(30).png",
       "name":"Tourism Website",
       "details":"Techstack- Html,css,javascript,bootstrap4 ",
       "url":"https://nishikantaray.github.io/Bootstrap-projects/Tourism_Website-main/index.html"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(31).png?token=AO5W6YDFNEDXPVTVA3TGRUTBARFJA",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(31).png",
       "name":"Websolution Website",
       "details":"Techstack- Html,css,javascript,bootstrap4 ",
       "url":"https://nishikantaray.github.io/Bootstrap-projects/websolutionproject-template-main/index.html"
     },
     {
-      "image":"https://raw.githubusercontent.com/NishikantaRay/splayer/main/Screenshot%20(28).png?token=AO5W6YBHRPCOZO3DCLGG2I3BARDH4",
+      "image":"https://raw.githubusercontent.com/NishikantaRay/Minimalist-portfolio/main/img/project/Screenshot%20(28).png",
       "name":"Resturant site(Angular)",
       "details":"Con Fusion' is a fictional restaurant and these are its website and mobile app projects.",
       "url":"https://github.com/NishikantaRay/Angular_projects/tree/main/ANGULAR-CLI-RESTURANT"
