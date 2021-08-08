@@ -25,6 +25,10 @@ export class OpensourceServiceService {
       {
         "url":"https://avatars.githubusercontent.com/u/32596943?v=4",
         "name":"wejustdevelop"
+      },
+      {
+        "url":"https://pbs.twimg.com/profile_images/1119517021064925184/wJP49tZ7_400x400.png",
+        "name":"GirlScript"
       }
   
     ];
