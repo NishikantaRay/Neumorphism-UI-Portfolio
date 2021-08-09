@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ParticlesConfig } from 'src/app/particles-config';
+import * as $ from 'jquery';
 declare let particlesJS: any;
 @Component({
   selector: 'app-header',
@@ -11,6 +12,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    $(".preloader").delay(2000).fadeOut(1000);
     this.invokeParticles();
   }
   public invokeParticles(): void {
